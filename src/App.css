@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.weatherBg{
+  background: url('https://th.bing.com/th/id/R.069cf185a7daba4caceb8e10e84da46b?rik=H6UDZfO%2b56isFg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f07%2fDownload-Free-Weather-Background.jpg&ehk=JNt8y9ofXKAnT7OCpITBYQSnexCUjI9Hmcb24SZmQrs%3d&risl=&pid=ImgRaw&r=0');
+  height: 50vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.heading{
   color: white;
+  font-weight: 500;
 }
+.weatherResultBox{
+  margin: auto;
+  width: 500px;
+  height: 300px;
 
-.App-link {
-  color: #61dafb;
 }
+.weatherIcon{
+  margin-top: 2rem;
+  width: 150px;
+  height: 150px;
+}
+.weatherCity{
+  font-size: 35px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.weatherTemp{
+  font-size: 55px;
+  font-weight: 700;
 }
