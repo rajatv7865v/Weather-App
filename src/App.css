@@ -51,7 +51,7 @@
 
   }
   .weather-container{
-    width: 80%;
+    width: 100%;
 
   }
   .weatherResultBox{
@@ -59,12 +59,12 @@
   }
   .weatherIcon{
     margin-top: 2rem;
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
   }
   .weatherTemp{
-    font-size: 40px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 500;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -90,8 +90,8 @@
   }
   .weatherIcon{
     margin-top: 2rem;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
   }
   .weatherTemp{
     font-size: 40px;
@@ -122,8 +122,8 @@
   }
   .weatherIcon{
     margin-top: 2rem;
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
   }
   .weatherTemp{
     font-size: 40px;
