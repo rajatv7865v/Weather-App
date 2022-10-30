@@ -6,6 +6,16 @@
   flex-direction: column;
   justify-content: center;
 }
+.form-control{
+  padding: 10px;
+  border-radius: 5px;
+
+}
+.btn-btn-primary{
+  border: none;
+  font-size: 30px;
+  border-radius: 5px;
+}
 .heading{
   color: white;
   font-weight: 500;
@@ -28,4 +38,95 @@
 .weatherTemp{
   font-size: 55px;
   font-weight: 700;
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+
+    width: 80%;
+    /* background-color: rgb(68, 9, 231); */
+  }
+  .weatherBg{
+    width: 100%;
+
+  }
+  .weather-container{
+    width: 80%;
+
+  }
+  .weatherResultBox{
+    width: 60%;
+  }
+  .weatherIcon{
+    margin-top: 2rem;
+    width: 250px;
+    height: 250px;
+  }
+  .weatherTemp{
+    font-size: 40px;
+    font-weight: 600;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container {
+
+    width: 70%;
+    /* background-color: rgb(200, 15, 15); */
+    /* border: 2px solid black; */
+    margin: auto;
+  }
+  .weatherBg{
+    width: 100%;
+  }
+  .weather-container{
+    width: 100%;
+
+  }
+  .form-control{
+
+  }
+  .weatherResultBox{
+    width: 70%;
+  }
+  .weatherIcon{
+    margin-top: 2rem;
+    width: 200px;
+    height: 200px;
+  }
+  .weatherTemp{
+    font-size: 40px;
+    font-weight: 600;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .container {
+
+    width: 70%;
+    /* background-color: rgb(200, 15, 15); */
+    /* border: 2px solid black; */
+    margin: auto;
+  }
+  .form-control{
+    padding: 0;
+
+  }
+  .weatherBg{
+    width: 100%;
+  }
+  .weather-container{
+    width: 100%;
+
+  }
+  .weatherResultBox{
+    width: 70%;
+  }
+  .weatherIcon{
+    margin-top: 2rem;
+    width: 200px;
+    height: 200px;
+  }
+  .weatherTemp{
+    font-size: 40px;
+    font-weight: 600;
+  }
 }
